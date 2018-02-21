@@ -10,9 +10,14 @@
 <body>
 
 <?php
-$message=$_GET["message"];
-	echo "<br>{$message}";
 
+if(isset($_GET['message'])){
+	$message=$_GET["message"];
+	echo "<br>{$message}";
+}
+else{
+	echo "<p style=color:red;><span style='font-size :30px'><b> Erreur</b> </span></P>";
+}
 ?>
 </body>
 </html>
