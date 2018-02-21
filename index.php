@@ -7,7 +7,6 @@
 <body>
 <?php
 echo "Hello world!";
-echo "salut";
 ?>
 </body>
 </html>
