@@ -2,12 +2,11 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>EX0</title>
+<title>EX1</title>
 </head>
 <body>
 <?php
-echo "Hello world!";
-echo "<br>Salut";
+
 ?>
 </body>
 </html>
