@@ -26,7 +26,7 @@ if(isset($_GET['nbLignes'])){
 				{
 					echo"<td style='color:red;font-weight:bold;'>{$nombre_de_lignes}-{$nombre_de_colonnes}</td>";
 				}
-				else{echo"<td font-weight:bold;>{$nombre_de_lignes}-{$nombre_de_colonnes}</td>";}
+				else{echo"<td style='color:black;font-weight:bold;';>{$nombre_de_lignes}-{$nombre_de_colonnes}</td>";}
 			}
 			echo "</tr>";
 }
