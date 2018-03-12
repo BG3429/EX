@@ -10,12 +10,19 @@
 	<label for="message">Message : </label>
     <input type="text" value="" name="message" id="message">
     <label for="size">Size : </label>
-    <input type="number" value="" name="size" id="size">
+    <input type="number" value="12" name="size" id="size">
 	<label for="color">Color (ex:FF0000): </label>
-    <input type="text" value="" name="color" id="color">
+    <input type="text" value="000000" name="color" id="color">
     <input type="submit" value="Valider">
+
 </form>
 
+
+	<br><a href="?message=Hello&size=15&color=FF0000">Afficher Hello</a>
+	<br><a href="?message=Salut&size=30&color=00FF00">Afficher Salut</a>
+	<br><a href="?message=Coucou&size=50&color=0000FF">Afficher Coucou</a>
+
+	
 <?php
 if(isset($_GET['size'])){
 	$size=$_GET["size"];
@@ -28,6 +35,7 @@ if(isset($_GET['size'])){
 
 else{
 	echo "<p style=color:red;><span style='font-size :30px'><b> Erreur</b> </span></p>";
+
 }
 
 ?>
