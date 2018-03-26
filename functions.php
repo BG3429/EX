@@ -51,5 +51,14 @@ if(isset($_GET['nbLignes'])){
 }}
 }		
 ?>
+<?php
+function element($titre, $contenu, $niveau=1){
+	echo "<h-niveau>{$titre}</h-niveau>";
+	echo "<div>{$contenu}</div>";
+
+
+}
+?>
+
 </body>
 </html>
