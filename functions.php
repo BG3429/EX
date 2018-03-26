@@ -7,7 +7,7 @@
 <body>
 
 <?php
-createHtmlTable($nbLignes,$nbColonnes){
+function createHtmlTable($nbLignes,$nbColonnes){
 if(isset($_GET['nbLignes'])){
 	$nbLignes=$_GET["nbLignes"];
 	if(isset($_GET['nbColonnes'])){
